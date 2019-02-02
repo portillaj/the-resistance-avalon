@@ -19,9 +19,19 @@
   "author": "Michael Betances",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
     "boardgame.io": "^0.31.1",
     "concurrently": "^4.1.0",
     "express": "^4.16.4",
-    "mongoose": "^5.4.7"
-  }
+    "mongoose": "^5.4.7",
+    "semantic-ui-css": "^2.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikey-bee93/the-resistance-avalon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mikey-bee93/the-resistance-avalon/issues"
+  },
+  "homepage": "https://github.com/mikey-bee93/the-resistance-avalon#readme"
 }
