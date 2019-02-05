@@ -1,5 +1,30 @@
-body>div,
-body>div>div,
-body>div>div>div.login-form {
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+.login-page {
     height: 100vh;
+    display: flex;
+    color: white
+}
+.login__aside {
+    width: 50%;
+}
+
+.login__form {
+    width: 50%;
+    background-color: whitesmoke;
+}
+
+.formSwitcher {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10%;
+    padding: 10px;
 }
